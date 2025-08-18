@@ -1,0 +1,47 @@
+<svg width="800" height="200" viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="hsl(262 83% 58%)" />
+      <stop offset="100%" stop-color="hsl(187 100% 42%)" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="rgba(0,0,0,0.3)"/>
+    </filter>
+  </defs>
+  
+  <!-- Logo icon (hexagon) -->
+  <g transform="translate(50, 20)">
+    <!-- Background hexagon with shadow -->
+    <path
+      d="M80 16L140 48V128L80 160L20 128V48L80 16Z"
+      fill="url(#logo-gradient)"
+      stroke="none"
+      filter="url(#shadow)"
+    />
+    
+    <!-- Center diamond -->
+    <path
+      d="M60 48L80 32L100 48V96L80 112L60 96V48Z"
+      fill="white"
+      fill-opacity="0.95"
+      stroke="white"
+      stroke-width="2"
+    />
+    
+    <!-- Letter A inside diamond -->
+    <path
+      d="M68 56H92L84 80H76L68 56Z"
+      fill="url(#logo-gradient)"
+    />
+  </g>
+  
+  <!-- Company name -->
+  <text x="200" y="120" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="48" font-weight="700" fill="white">
+    AZAI Labs
+  </text>
+  
+  <!-- Tagline -->
+  <text x="200" y="150" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="400" fill="rgba(255,255,255,0.7)">
+    Agentic Automation for Real Work
+  </text>
+</svg>
