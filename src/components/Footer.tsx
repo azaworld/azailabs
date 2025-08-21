@@ -18,7 +18,14 @@ export const Footer = () => {
               {site.about.blurb}
             </p>
             <div className="text-sm text-muted-foreground">
-              <p>{site.brand.email}</p>
+              <p>
+                <a 
+                  href={`mailto:${site.brand.email}`}
+                  className="text-primary hover:underline transition-colors"
+                >
+                  {site.brand.email}
+                </a>
+              </p>
               <p>{site.brand.locationLine}</p>
             </div>
           </div>

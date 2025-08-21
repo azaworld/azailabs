@@ -69,7 +69,12 @@ export default function Contact() {
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
                     <Mail className="h-4 w-4 text-primary" />
-                    <span className="text-sm">{site.brand.email}</span>
+                    <a 
+                      href={`mailto:${site.brand.email}`}
+                      className="text-sm text-primary hover:underline transition-colors"
+                    >
+                      {site.brand.email}
+                    </a>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Globe className="h-4 w-4 text-primary" />

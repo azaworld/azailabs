@@ -113,7 +113,13 @@ export default function About() {
             <h3 className="text-xl font-semibold mb-6">Ready to discuss your project?</h3>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                <strong>Email:</strong> {site.brand.email}
+                <strong>Email:</strong>{" "}
+                <a 
+                  href={`mailto:${site.brand.email}`}
+                  className="text-primary hover:underline transition-colors"
+                >
+                  {site.brand.email}
+                </a>
               </p>
               <p>
                 <strong>Based in:</strong> {site.brand.usCity}

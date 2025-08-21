@@ -247,7 +247,7 @@ This project is proprietary to AZAI Labs. All rights reserved.
 ## 🆘 Support
 
 For support and questions:
-- Email: azailabsltd@gmail.com
+- Email: hello@azailabs.dev
 - LinkedIn: [AZAI Labs](https://linkedin.com/company/azai-labs)
 - GitHub: [azai-labs](https://github.com/azai-labs)
 

@@ -143,7 +143,7 @@ export function ContactForm() {
                 required
                 value={formData.email}
                 onChange={handleChange}
-                placeholder="your@email.com"
+                placeholder="hello@azailabs.dev"
                 className="w-full"
               />
             </div>

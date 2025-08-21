@@ -242,7 +242,7 @@ jobs:
 
 - **Documentation**: Check README.md
 - **Issues**: GitHub repository issues
-- **Contact**: azailabsltd@gmail.com
+- **Contact**: hello@azailabs.dev
 
 ---
 

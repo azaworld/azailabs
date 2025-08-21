@@ -1,7 +1,7 @@
 export const brand = {
   name: "AZAI Labs",
   tagline: "Build with agents, not headcount.",
-  email: "azailabsltd@gmail.com",
+  email: "hello@azailabs.dev",
   socials: { 
     linkedin: "https://linkedin.com/company/azai-labs", 
     github: "https://github.com/azai-labs" 

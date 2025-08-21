@@ -1,74 +1,75 @@
-# Welcome to your Lovable project
+# AZAI Labs
 
-## Project info
+Build with agents, not headcount.
 
-**URL**: https://lovable.dev/projects/116b0c1e-f1ee-4ad5-a5b1-a93603ce2d30
+## About
 
-## How can I edit this code?
+AZAI Labs is a remote-first AI development company specializing in agentic automation solutions. We focus on pragmatic AI implementation that delivers measurable ROI for enterprise clients.
 
-There are several ways of editing your application.
+## Tech Stack
 
-**Use Lovable**
+- **Frontend**: React 18 + TypeScript + Vite
+- **UI Components**: shadcn/ui + Tailwind CSS
+- **Styling**: Tailwind CSS with custom design system
+- **Routing**: React Router DOM
+- **Forms**: React Hook Form + Zod validation
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/116b0c1e-f1ee-4ad5-a5b1-a93603ce2d30) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js 18+ 
+- npm or yarn
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```bash
+# Clone the repository
+git clone <repository-url>
+cd azailabs
 
-Follow these steps:
+# Install dependencies
+npm install
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build for development
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Project Structure
 
-## What technologies are used for this project?
+```
+src/
+├── components/     # Reusable UI components
+├── pages/         # Page components
+├── content/       # Site content and configuration
+├── lib/           # Utility functions
+└── hooks/         # Custom React hooks
+```
 
-This project is built with:
+## Features
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Responsive Design**: Mobile-first approach with Tailwind CSS
+- **Component Library**: Comprehensive UI components with shadcn/ui
+- **Type Safety**: Full TypeScript implementation
+- **Modern React**: Built with React 18 and modern patterns
+- **Performance**: Optimized with Vite for fast development
 
-## How can I deploy this project?
+## Contact
 
-Simply open [Lovable](https://lovable.dev/projects/116b0c1e-f1ee-4ad5-a5b1-a93603ce2d30) and click on Share -> Publish.
+- **Email**: hello@azailabs.dev
+- **LinkedIn**: [AZAI Labs](https://linkedin.com/company/azai-labs)
+- **GitHub**: [azai-labs](https://github.com/azai-labs)
 
-## Can I connect a custom domain to my Lovable project?
+## License
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-# azailabs
+Private - All rights reserved © 2024 AZAI Labs

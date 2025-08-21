@@ -2,7 +2,7 @@ export const site = {
   brand: {
     name: "AZAI Labs",
     tagline: "Build with agents, not headcount.",
-    email: "azailabsltd@gmail.com",
+    email: "hello@azailabs.dev",
     locationLine: "Remote-first • US/EU/APAC",
     usCity: "San Francisco, CA",
     socials: {
